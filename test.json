@@ -1,0 +1,420 @@
+{
+  "airports": [
+    {
+      "code": "BEG",
+      "name": "Belgrade Nikola Tesla",
+      "x": 20,
+      "y": 45
+    },
+    {
+      "code": "LHR",
+      "name": "London Heathrow",
+      "x": 0,
+      "y": 51
+    },
+    {
+      "code": "JFK",
+      "name": "New York JFK",
+      "x": -74,
+      "y": 41
+    },
+    {
+      "code": "LAX",
+      "name": "Los Angeles International",
+      "x": -118,
+      "y": 34
+    },
+    {
+      "code": "SFO",
+      "name": "San Francisco International",
+      "x": -122,
+      "y": 38
+    },
+    {
+      "code": "YVR",
+      "name": "Vancouver International",
+      "x": -123,
+      "y": 49
+    },
+    {
+      "code": "MEX",
+      "name": "Mexico City International",
+      "x": -99,
+      "y": 19
+    },
+    {
+      "code": "GRU",
+      "name": "Sao Paulo Guarulhos",
+      "x": -47,
+      "y": -23
+    },
+    {
+      "code": "EZE",
+      "name": "Buenos Aires Ezeiza",
+      "x": -59,
+      "y": -35
+    },
+    {
+      "code": "SCL",
+      "name": "Santiago International",
+      "x": -71,
+      "y": -33
+    },
+    {
+      "code": "KEF",
+      "name": "Keflavik International",
+      "x": -23,
+      "y": 64
+    },
+    {
+      "code": "CDG",
+      "name": "Paris Charles de Gaulle",
+      "x": 2,
+      "y": 49
+    },
+    {
+      "code": "CPT",
+      "name": "Cape Town International",
+      "x": 18,
+      "y": -34
+    },
+    {
+      "code": "JNB",
+      "name": "Johannesburg OR Tambo",
+      "x": 28,
+      "y": -26
+    },
+    {
+      "code": "CAI",
+      "name": "Cairo International",
+      "x": 31,
+      "y": 30
+    },
+    {
+      "code": "DXB",
+      "name": "Dubai International",
+      "x": 55,
+      "y": 25
+    },
+    {
+      "code": "DEL",
+      "name": "Delhi Indira Gandhi",
+      "x": 77,
+      "y": 29
+    },
+    {
+      "code": "SIN",
+      "name": "Singapore Changi",
+      "x": 104,
+      "y": 1
+    },
+    {
+      "code": "HKG",
+      "name": "Hong Kong International",
+      "x": 114,
+      "y": 22
+    },
+    {
+      "code": "HND",
+      "name": "Tokyo Haneda",
+      "x": 140,
+      "y": 36
+    },
+    {
+      "code": "ICN",
+      "name": "Seoul Incheon",
+      "x": 127,
+      "y": 37
+    },
+    {
+      "code": "SYD",
+      "name": "Sydney Kingsford Smith",
+      "x": 151,
+      "y": -34
+    },
+    {
+      "code": "AKL",
+      "name": "Auckland International",
+      "x": 175,
+      "y": -37
+    },
+    {
+      "code": "HNL",
+      "name": "Honolulu International",
+      "x": -158,
+      "y": 21
+    }
+  ],
+  "flights": [
+    {
+      "from": "BEG",
+      "to": "LHR",
+      "departure": "00:15",
+      "duration": 180
+    },
+    {
+      "from": "BEG",
+      "to": "CDG",
+      "departure": "07:28",
+      "duration": 150
+    },
+    {
+      "from": "BEG",
+      "to": "DXB",
+      "departure": "14:41",
+      "duration": 330
+    },
+    {
+      "from": "LHR",
+      "to": "JFK",
+      "departure": "21:54",
+      "duration": 480
+    },
+    {
+      "from": "LHR",
+      "to": "KEF",
+      "departure": "04:07",
+      "duration": 180
+    },
+    {
+      "from": "LHR",
+      "to": "CAI",
+      "departure": "11:20",
+      "duration": 300
+    },
+    {
+      "from": "CDG",
+      "to": "GRU",
+      "departure": "18:33",
+      "duration": 690
+    },
+    {
+      "from": "CDG",
+      "to": "JFK",
+      "departure": "01:46",
+      "duration": 510
+    },
+    {
+      "from": "KEF",
+      "to": "YVR",
+      "departure": "08:59",
+      "duration": 450
+    },
+    {
+      "from": "KEF",
+      "to": "JFK",
+      "departure": "15:12",
+      "duration": 360
+    },
+    {
+      "from": "JFK",
+      "to": "LAX",
+      "departure": "22:25",
+      "duration": 360
+    },
+    {
+      "from": "JFK",
+      "to": "MEX",
+      "departure": "05:38",
+      "duration": 330
+    },
+    {
+      "from": "JFK",
+      "to": "LHR",
+      "departure": "12:51",
+      "duration": 420
+    },
+    {
+      "from": "LAX",
+      "to": "SFO",
+      "departure": "19:04",
+      "duration": 90
+    },
+    {
+      "from": "LAX",
+      "to": "HNL",
+      "departure": "02:17",
+      "duration": 360
+    },
+    {
+      "from": "LAX",
+      "to": "HND",
+      "departure": "09:30",
+      "duration": 690
+    },
+    {
+      "from": "SFO",
+      "to": "YVR",
+      "departure": "16:43",
+      "duration": 150
+    },
+    {
+      "from": "SFO",
+      "to": "HND",
+      "departure": "23:56",
+      "duration": 660
+    },
+    {
+      "from": "YVR",
+      "to": "HNL",
+      "departure": "06:09",
+      "duration": 390
+    },
+    {
+      "from": "MEX",
+      "to": "SCL",
+      "departure": "13:22",
+      "duration": 480
+    },
+    {
+      "from": "MEX",
+      "to": "LAX",
+      "departure": "20:35",
+      "duration": 240
+    },
+    {
+      "from": "GRU",
+      "to": "EZE",
+      "departure": "03:48",
+      "duration": 180
+    },
+    {
+      "from": "GRU",
+      "to": "CPT",
+      "departure": "10:01",
+      "duration": 480
+    },
+    {
+      "from": "EZE",
+      "to": "SCL",
+      "departure": "17:14",
+      "duration": 135
+    },
+    {
+      "from": "SCL",
+      "to": "AKL",
+      "departure": "00:27",
+      "duration": 780
+    },
+    {
+      "from": "CPT",
+      "to": "JNB",
+      "departure": "07:40",
+      "duration": 120
+    },
+    {
+      "from": "JNB",
+      "to": "DXB",
+      "departure": "14:53",
+      "duration": 480
+    },
+    {
+      "from": "JNB",
+      "to": "CAI",
+      "departure": "21:06",
+      "duration": 510
+    },
+    {
+      "from": "CAI",
+      "to": "DXB",
+      "departure": "04:19",
+      "duration": 210
+    },
+    {
+      "from": "CAI",
+      "to": "BEG",
+      "departure": "11:32",
+      "duration": 180
+    },
+    {
+      "from": "DXB",
+      "to": "DEL",
+      "departure": "18:45",
+      "duration": 210
+    },
+    {
+      "from": "DXB",
+      "to": "SIN",
+      "departure": "01:58",
+      "duration": 450
+    },
+    {
+      "from": "DXB",
+      "to": "SYD",
+      "departure": "08:11",
+      "duration": 840
+    },
+    {
+      "from": "DEL",
+      "to": "HKG",
+      "departure": "15:24",
+      "duration": 330
+    },
+    {
+      "from": "DEL",
+      "to": "SIN",
+      "departure": "22:37",
+      "duration": 360
+    },
+    {
+      "from": "SIN",
+      "to": "SYD",
+      "departure": "05:50",
+      "duration": 480
+    },
+    {
+      "from": "SIN",
+      "to": "HKG",
+      "departure": "12:03",
+      "duration": 240
+    },
+    {
+      "from": "HKG",
+      "to": "ICN",
+      "departure": "19:16",
+      "duration": 210
+    },
+    {
+      "from": "HKG",
+      "to": "HND",
+      "departure": "02:29",
+      "duration": 240
+    },
+    {
+      "from": "ICN",
+      "to": "HND",
+      "departure": "09:42",
+      "duration": 150
+    },
+    {
+      "from": "HND",
+      "to": "HNL",
+      "departure": "16:55",
+      "duration": 420
+    },
+    {
+      "from": "HND",
+      "to": "SYD",
+      "departure": "23:08",
+      "duration": 570
+    },
+    {
+      "from": "SYD",
+      "to": "AKL",
+      "departure": "06:21",
+      "duration": 180
+    },
+    {
+      "from": "AKL",
+      "to": "HNL",
+      "departure": "13:34",
+      "duration": 540
+    },
+    {
+      "from": "HNL",
+      "to": "LAX",
+      "departure": "20:47",
+      "duration": 330
+    }
+  ]
+}
